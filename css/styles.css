@@ -18,6 +18,7 @@ body {
 
   font-family: Roboto, sans-serif;
   font-style: normal;
+  font-weight: normal;
   letter-spacing: 0.03em;
 }
 
@@ -58,15 +59,17 @@ body {
   color: var(--accent-color);
 }
 
-.nav-address .link {
+.nav .paragraph link {
+  color: var(--primary-text-color);
+
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
 }
 
-.nav-address .link:hover,
-.nav-address .link:focus {
+.nav .link:hover,
+.nav .link:focus {
   color: var(--accent-color);
 }
 
@@ -101,7 +104,7 @@ body {
 .features-title {
   color: var(--title-text-color);
 
-  font-weight: 700;
+  font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
   text-transform: uppercase;
@@ -110,7 +113,6 @@ body {
 .features .paragraph {
   color: var(--primary-text-color);
 
-  font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
 }
@@ -129,13 +131,12 @@ body {
 }
 
 .team .paragraph {
-  font-weight: 400;
   font-size: 16px;
   line-height: 1.19;
   text-align: center;
 }
 
-/* Проекты */
+/* Проекты портфолио */
 
 .projects-title {
   color: var(--title-text-color);
@@ -148,7 +149,6 @@ body {
 .projects .paragraph {
   color: var(--primary-text-color);
 
-  font-weight: 400;
   font-size: 16px;
   line-height: 1.87;
 }
@@ -162,6 +162,7 @@ body {
   font-weight: bold;
   font-size: 16px;
   line-height: 1.88;
+  letter-spacing: 0.06em;
 }
 
 /* Подвал */
@@ -175,6 +176,17 @@ body {
 
   font-family: Raleway;
   font-weight: 400;
+  font-size: 26px;
+  line-height: 1.19;
+}
+
+/* Лого для портфолио */
+
+.footer .logo.current {
+  color: #ffffff;
+
+  font-family: Raleway;
+  font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
 }
