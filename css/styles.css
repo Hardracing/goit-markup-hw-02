@@ -59,7 +59,7 @@ body {
   color: var(--accent-color);
 }
 
-.nav .paragraph link {
+.paragraph .link {
   color: var(--primary-text-color);
 
   font-weight: 500;
@@ -204,7 +204,7 @@ button {
 
 /* Лого для портфолио */
 
-.footer .logo.current {
+.footer .logo {
   color: #ffffff;
 
   font-weight: 700;
