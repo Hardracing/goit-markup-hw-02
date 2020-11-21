@@ -36,27 +36,26 @@ body {
   list-style: none;
 }
 
-/* .paragraph {
-  font-style: normal;
-} */
-
-.nav .logo {
-  color: var(--nav-logo-color);
-
-  font-family: Raleway;
+.logo {
+  font-family: 'Raleway', sans-serif;
   font-weight: 700;
   font-size: 26px;
   line-height: 1.2;
 }
 
 /* Альтернативный шрифт */
-/* .nav .logo {
-  color: var(--nav-logo-color);
-
-  font-family: Oleo Script;
-  font-size: 26px;
-  line-height: 1.2;
+/* .logo {
+  font-family: 'Oleo Script';
+  font-weight: 400;
 } */
+
+/* .paragraph {
+  font-style: normal;
+} */
+
+.nav .logo {
+  color: var(--nav-logo-color);
+}
 
 .web {
   color: var(--accent-color);
@@ -225,21 +224,7 @@ button:focus {
 
 .footer .logo {
   color: var(--primary-bg-color);
-
-  font-family: Raleway;
-  font-weight: 700;
-  font-size: 26px;
-  line-height: 1.19;
 }
-
-/* Альтернативный шрифт */
-/* .footer .logo {
-  color: var(--primary-bg-color);
-
-  font-family: Oleo Script;
-  font-size: 26px;
-  line-height: 1.2;
-} */
 
 .address {
   font-style: normal;
